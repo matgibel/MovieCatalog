@@ -1,0 +1,12 @@
+﻿@model TestApplication.ViewModels.VideoListViewModel
+
+
+
+
+
+@foreach (var video in Model.Videos)
+{
+    <h1>@video.Title</h1>
+    <h2>@video.ShortDescription</h2>
+    <h2>@video.Price.ToString()</h2>
+}
