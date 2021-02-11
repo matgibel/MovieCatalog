@@ -12,7 +12,15 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\matgi\source\repos\TestApplication\TestApplication\Views\_ViewImports.cshtml"
+using TestApplication.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f7170d25df74d93e6eb55fcf617fa6e9d74bac7f", @"/Views/Video/List.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b6e47e647d5326614cd8a34dfab6aa8cb3a06570", @"/Views/_ViewImports.cshtml")]
     public class Views_Video_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TestApplication.ViewModels.VideoListViewModel>
     {
         #pragma warning disable 1998
