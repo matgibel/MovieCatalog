@@ -27,6 +27,18 @@ namespace TestApplication.Controllers
             return View(videoListViewModel);
         }
 
+        public IActionResult Details(int id)
+        {
+            var video = _videoRepository.GetVideoById(id);
+            if(video == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return View(video);
+            }
+        }
 
     }
 }

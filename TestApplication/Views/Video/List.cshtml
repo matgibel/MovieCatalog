@@ -6,7 +6,19 @@
 
 @foreach (var video in Model.Videos)
 {
-    <h1>@video.Title</h1>
-    <h2>@video.ShortDescription</h2>
-    <h2>@video.Price.ToString()</h2>
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+            <h2>
+                <a asp-controller="Video" asp-action="Details" asp-route-id="@video.VideoId">@video.Title</a>
+            </h2>
+            <img src="@video.ImageUrl" alt="" width="150" height="400" />
+            <div class="caption">
+                <p>@video.ShortDescription</p>
+                <h3 class="pull-right">@video.Price.ToString("c")</h3>
+            </div>
+        </div>
+
+
+    </div>
+    
 }

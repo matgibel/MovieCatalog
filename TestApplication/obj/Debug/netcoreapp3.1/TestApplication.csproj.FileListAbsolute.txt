@@ -34,3 +34,4 @@ C:\Users\matgi\source\repos\TestApplication\TestApplication\obj\Debug\netcoreapp
 C:\Users\matgi\source\repos\TestApplication\TestApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\matgi\source\repos\TestApplication\TestApplication\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\matgi\source\repos\TestApplication\TestApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\matgi\source\repos\TestApplication\TestApplication\obj\Debug\netcoreapp3.1\Razor\Views\Video\Details.cshtml.g.cs
