@@ -11,6 +11,7 @@ namespace TestApplication.Models
         public int VideoId { get; set; }
         public String Title { get; set; }
         public String Director { get; set; }
+        public String ImageUrl { get; set; }
         public String ShortDescription { get; set; }
         public String LongDescription { get; set; }
 

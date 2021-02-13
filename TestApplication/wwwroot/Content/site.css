@@ -1,9 +1,10 @@
 ﻿body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    /*background-image: url('/images/pattern.png');*/
+    background-image: url(../Images/pattern.jpg);
     background-repeat: repeat;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 
 .slide-image {
@@ -39,9 +40,7 @@
 
 .thumbnail {
     padding: 0;
-    width:auto;
-    display:block;
-    margin-bottom:7px;
+    
 }
 
     .thumbnail .caption-full {
