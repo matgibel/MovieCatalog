@@ -29,8 +29,8 @@ namespace TestApplication
             options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"))
             ); 
             services.AddControllersWithViews();
-            services.AddScoped<IVideoRepository, MockVideoRepository>();
-            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
+            services.AddScoped<IVideoRepository, VideoRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
